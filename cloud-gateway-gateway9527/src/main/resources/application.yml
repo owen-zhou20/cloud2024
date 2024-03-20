@@ -25,7 +25,7 @@ spring:
             #- Cookie=username,zzyy
             #- Header=X-Request-Id, \d+  # 请求头要有X-Request-Id属性并且值为整数的正则表达式
             #- Host=**.sv.com
-            - Query=username, \d+  # 要有参数名username并且值还要是整数才能路由
+            #- Query=username, \d+  # 要有参数名username并且值还要是整数才能路由
 
 
 
